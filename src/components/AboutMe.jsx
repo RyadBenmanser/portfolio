@@ -15,7 +15,7 @@ const AboutMe = () => {
               height={500}
               alt="..."
               className="max-w-full rounded-lg shadow-lg"
-              src="	https://brad-portfolio.netlify.app/images/about.jpeg"
+              src="/images/lee-campbell-DtDlVpy-vvQ-unsplash (1).jpg"
             />
           </div>
           <div className="w-full md:w-5/12 ml-auto mr-auto my-3">
@@ -23,7 +23,7 @@ const AboutMe = () => {
               <p className=" text-lg ">
                 I&apos;m a Next.js web developer with experience gained through
                 multiple projects. My skills extend to <b>Node.js</b>,{" "}
-                <b>NestJS</b>, and <b>MongoDB</b>. I love building interactive and
+                <b>Nest</b>, and <b>MongoDB</b>. I love building interactive and
                 performant web applications using <b>Next.js</b>. Additionally,
                 I have knowledge in backend development with <b>Node.js</b> and
                 have worked with <b>MongoDB</b> for database needs. I

@@ -7,8 +7,7 @@ const Header = () => {
       <div
         className="h-screen relative flex flex-col items-center"
         style={{
-          background:
-            "url('https://brad-portfolio.netlify.app/images/heroImage.jpeg')",
+          background: "url('/images/lee-campbell-DtDlVpy-vvQ-unsplash.jpg')",
           backgroundSize: "cover",
         }}
       >
