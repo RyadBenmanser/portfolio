@@ -8,7 +8,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuHidden(!isMenuHidden);
   };
-  const menu = ["Home", "About", "Services", "Contact"];
+  const menu = ["Home", "About", "Projects", "Contact"];
   return (
     <nav
       className="flex flex-wrap z-10 items-center
@@ -61,6 +61,12 @@ const Navbar = () => {
                 <Link
                   href={`#${x}`}
                   className="md:p-4 py-2 block hover:text-white"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document
+                      .getElementById(`${x}`)
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
                 >
                   {x}
                 </Link>

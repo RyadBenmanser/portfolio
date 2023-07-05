@@ -14,8 +14,8 @@ const Header = () => {
         <Navbar />
 
         <div className=" text-center text-white h-full flex items-center abosulte">
-          <div>
-            <div>
+          <div className="bg-black opacity-80 rounded-md px-4">
+            <div className="my-4">
               <h1 className="text-6xl">Hi, it&apos;s me Ryad</h1>
             </div>
             <div>

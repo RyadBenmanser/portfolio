@@ -8,15 +8,18 @@ export default function Home() {
   return (
     <>
       <div>
+        <div id="Home"></div>
         <Header />
         <br />
         <br />
         <br />
         <br />
+        <div id="About"></div>
         <br />
         <br />
         <br />
         <AboutMe />
+        <div id="Projects"></div>
         <br />
         <br />
         <br />
@@ -24,6 +27,7 @@ export default function Home() {
         <br />
         <br />
         <Projects />
+        <div id="Contact"></div>
         <hr />
         <br />
         <br />
