@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 import Info from "./Info";
 import { useForm } from "react-hook-form";

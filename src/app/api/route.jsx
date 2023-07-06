@@ -22,12 +22,14 @@ export const POST = async (req) => {
       if (err) {
         return NextResponse.json({ msg: "connection refused" });
       } else {
+        console.log(info);
         return NextResponse.json({ msg: "msg sent" });
       }
     });
+    return NextResponse.json({ msg: "msg sent" });
   } catch (e) {
     console.log(e);
     return NextResponse.json({ msg: "error" });
   }
-  return NextResponse.json({ data: "ok" });
+  // return NextResponse.json({ data: "ok" });
 };
