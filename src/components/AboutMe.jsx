@@ -34,7 +34,7 @@ const AboutMe = () => {
                 m&apos;épanouis dans un environnement positif et collaboratif.
                 Si vous avez un projet ou des questions, n&apos;hésitez pas à me
                 contacter.
-                <b>Créons quelque chose d&apos;incroyable ensemble !</b>
+                <b> Créons quelque chose d&apos;incroyable ensemble !</b>
               </p>
             </div>
           </div>
