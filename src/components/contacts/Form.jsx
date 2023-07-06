@@ -20,7 +20,7 @@ const Form = () => {
     });
   };
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white ">
       <div className=" px-4 mx-auto max-w-screen-md">
         <Info />
         <form
