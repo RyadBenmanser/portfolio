@@ -18,15 +18,12 @@ export const POST = async (req) => {
         pass: process.env.GMAIL_APP_PASSWORD,
       },
     });
-    transporter.sendMail(msg, (err, info) => {
-      if (err) {
-        return NextResponse.json({ msg: "connection refused" });
-      } else {
-        console.log(info);
-        return NextResponse.json({ msg: "msg sent" });
-      }
-    });
-    return NextResponse.json({ msg: "msg sent" });
+
+    let info = await transporter.sendMail(msg);
+    return NextResponse.json(
+      { msg: "Email envoyez avec success" },
+      { status: 200 }
+    );
   } catch (e) {
     console.log(e);
     return NextResponse.json({ msg: "error" });
