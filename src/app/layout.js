@@ -1,6 +1,7 @@
 import Script from "next/script";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,10 @@ export default function RootLayout({ children }) {
         {dataLayer.push(arguments)}
         gtag('js', new Date()); gtag('config', 'G-64ZG4DRSD3');`}
       </Script>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <Navbar />
+
+        {children}</body>
     </html>
   );
 }

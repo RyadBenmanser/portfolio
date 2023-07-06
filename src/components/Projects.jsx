@@ -18,7 +18,7 @@ const Projects = () => {
     {
       link: "https://n-informatique.com/",
       image: "/images/n-infmatique.png",
-      comment: `My first real project using <b> MEAN Stack</b> <small>(MongoDb, ExpressJS, Angular, NodeJS)</small> `,
+      comment: `My first real project using <b> Angular </b> and <b>NestJS</b>  `,
     },
   ];
   return (
