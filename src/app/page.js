@@ -2,6 +2,7 @@ import AboutMe from "@/components/AboutMe";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
+import Contact from "@/components/contacts/Contact";
 import Form from "@/components/contacts/Form";
 
 export default function Home() {
@@ -31,7 +32,7 @@ export default function Home() {
         <hr />
         <br />
         <br />
-        <Form />
+        <Contact />
         <br />
         <br />
         <br /> <br />

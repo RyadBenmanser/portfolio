@@ -7,10 +7,10 @@ const Info = () => {
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
         Contact
       </h2>
-      <h1 className="text-3xl text-center">Got a problem to solve?</h1>
+      <h1 className="text-3xl text-center">Un problème à résoudre ?</h1>
       <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-        Get your space suit ready and tell me your ideas to develop your dream
-        website.
+        Veuillez partager avec moi vos idées pour le développement de votre site
+        web de rêve.
         <br />
         <span className="text-black">
           <Link href={"mailto:ryadbenmanser@gmail.com"}>

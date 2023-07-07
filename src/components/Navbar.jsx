@@ -1,11 +1,9 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const Navbar = () => {
   const [isMenuHidden, setMenuHidden] = useState(true);
-  const router = useRouter();
   const toggleMenu = () => {
     setMenuHidden(!isMenuHidden);
   };
@@ -20,19 +18,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`
-        bg-black
-        flex flex-wrap z-10 items-center
-        justify-between
-        w-full
-        py-4
-        md:py-0
-        px-4
-        text-lg text-gray-700
+      className="bg-black flex flex-wrap z-10 items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700
         fixed 
-        transition-all
-        
-      `}
+        transition-all"
     >
       <div></div>
       <svg

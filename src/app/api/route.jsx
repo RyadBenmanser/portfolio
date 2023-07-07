@@ -19,7 +19,7 @@ export const POST = async (req) => {
       },
     });
 
-    let info = await transporter.sendMail(msg);
+    // let info = await transporter.sendMail(msg);
     return NextResponse.json(
       { msg: "Email envoyez avec success" },
       { status: 200 }

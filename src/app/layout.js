@@ -37,7 +37,9 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
+  keywords: ["Site Web", "Rabat", "Pas cher"],
 };
+
 
 export default function RootLayout({ children }) {
   return (
